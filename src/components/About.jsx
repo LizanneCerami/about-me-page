@@ -1,14 +1,20 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { useState } from "react"
+import { Button, Col, Container, Row } from "react-bootstrap"
 
 export default function About () {
+
+ const [imgUrl, setImgUrl] = useState("https://picsum.photos/300/300")
 
   return(
     <main>
       <Container>
         <Row className="text-center">
           <Col sm={12} md={6}>
-            <img src ="https://picsum.photos/300/300" alt = "Profile"
+            <img 
+            src ={imgUrl}
+            alt = "Profile"
             className="rounded-circle" />
+            <Button onClick={() => setImgUrl("https://picsum.photos/300/300")}>Change Image</Button>
           </Col>
 
           <Col sm={12} md={6}>
