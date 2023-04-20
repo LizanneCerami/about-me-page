@@ -33,7 +33,7 @@ p {
 .grid-container,
 .carousel-container {
   padding: 20px;
-  background-color: rgba(41, 7, 7, 0.917);
+  background-color: rgba(41, 7, 7, 0.817);
 }
 
 .quote-container {
@@ -46,12 +46,9 @@ p {
   padding-top: 30px;
 }
 
-
-
 .quote-container q {
   font-size: 105%;
 }
-
 
 .grid-container h2 {
   padding-top: 20px;
