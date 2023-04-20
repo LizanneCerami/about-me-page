@@ -2,18 +2,28 @@ import { useState } from "react"
 import { Button, Col, Container, Row } from "react-bootstrap"
 
 export default function About () {
+  const [imgIndex, setImgIndex] = useState(0);
 
- const [imgUrl, setImgUrl] = useState("/images/IMG_6577.jpg")
-  console.log(imgUrl)
+  const imgArray = [
+    "IMG_6577.jpg",
+    "me.jpg"
+  ];
+
+  if (imgIndex >= imgArray.length)
+    setImgIndex(0);
+
+
+  console.log(imgIndex)
   return(
     <main>
-      <Container>
+      <Container className="main-container">
         <Row className="text-center">
           <Col sm={12} md={6}>
             <img  
-            alt = "Profile"
-            className="rounded-circle profile-pic" onClick={() => setImgUrl("/images/me.jpg")} src={imgUrl} />
-            {/* <Button onClick={() => setImgUrl("/images/IMG_6467.jpg")}>Change Image</Button> */}
+              src={"/images/"+imgArray[imgIndex]}
+              alt = "Profile"
+              className="rounded-circle profile-pic" 
+              onClick={() => setImgIndex(imgIndex+1)} />
           </Col>
 
           <Col sm={12} md={6}>

@@ -11,47 +11,50 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: clamp(48px, 10vw, 61px);
   font-weight: 900;
-}
-
-h2 {
-  font-weight: 900;
-  font-size: 25px;
-  padding-bottom: 10px;
-}
-.container {
-  padding: 20px;
-  font-size: x-large;
-  background-color:  rgba(41, 7, 7, 0.501);
-}
-
-.container h1 {
+  padding-bottom: 30px;
   font-family: 'Merienda';
   color: navajowhite;
 }
 
-.carousel-container {
-  padding: 15px;
+h2 {
+  font-size: clamp(18px, 4vw, 21px);
+  font-weight: 900;
+  padding-bottom: 10px;
 }
 
-.quote-container p {
-  font-size: clamp(23px, 4vw, 26px);
-  font-weight: 700;
+p {
+  font-size: clamp(23px, 4vw, 30px);
+  font-weight: 500;
 }
+
+.container,
+.grid-container,
+.carousel-container {
+  padding: 20px;
+  background-color: rgba(41, 7, 7, 0.917);
+}
+
+.quote-container {
+  border-top: dotted;
+  border-bottom: dotted;
+  border-width: 7px;
+  border-color: bisque;
+  border-radius: 0;
+  padding: 40px;
+  padding-top: 30px;
+}
+
+
 
 .quote-container q {
   font-size: 105%;
 }
 
-.grid-container {
-  background-color: rgba(41, 7, 7, 0.501);
-}
 
-.grid-container p{
-  font-size: x-large;
-}
 .grid-container h2 {
+  padding-top: 20px;
   font-size: 40px;
   font-weight: 900;
   color: navajowhite;

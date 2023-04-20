@@ -9,7 +9,7 @@ export default function picCarousel () {
           <Col className="p-0">
             <Carousel>
               <Carousel.Item>
-                <img src= "/images/weddingpic.jpg"
+                <img src= "/images/carousel-1.jpg"
                   className= "d-block w-100"
                   alt="Jhonnas and me at a wedding together."/>
                 {/* <Carousel.Caption>
@@ -19,7 +19,7 @@ export default function picCarousel () {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="/images/lucyhoodie.jpg"
+                <img src="/images/carousel-2.jpg"
                   className= "d-block w-100"
                   alt="Lucy in a hoodie."/>
                 {/* <Carousel.Caption>
@@ -29,7 +29,7 @@ export default function picCarousel () {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="/images/closeup.jpg"
+                <img src="/images/carousel-3.jpg"
                   className= "d-block w-100"
                   alt="Jhonnas and Me smiling close together"/>
                 {/* <Carousel.Caption>
@@ -39,21 +39,15 @@ export default function picCarousel () {
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="images/jhonnas2.jpg"
-                className="d-block w-100"
-                alt="Jhonnas smiling at a bar."/>
-              </Carousel.Item>
-
-              <Carousel.Item>
-                <img src="images/blackandwhitephoto.jpg"
+                <img src="images/carousel-5.jpg"
                 className="d-block w-100"
                 alt="Jhonnas and me in Boston" />
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="images/lucyonbeach.jpg"
-                className="d-block w=100"
-                alt="Lucy on the beach in Clearwater, FL." />
+                <img src="images/carousel-4.jpg"
+                className="d-block w-100"
+                alt="Jhonnas smiling at a bar."/>
               </Carousel.Item>
 
             </Carousel>
