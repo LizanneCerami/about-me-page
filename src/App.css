@@ -1,16 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   background-color: #ccc;
+  background-image: url(./images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(237, 221, 218);
+  font-family: 'Shadows Into Light Two';
 }
 
 h1 {
+  font-size: 50px;
   font-weight: 900;
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 .container {
-  padding: 20px
+  padding: 20px;
+  font-size: x-large;
+  background-color:  rgba(41, 7, 7, 0.501);
+}
+
+.container h1 {
+  font-family: 'Merienda';
+  color: navajowhite;
 }
 
 .carousel-container {
@@ -27,10 +45,19 @@ h2 {
 }
 
 .grid-container {
-  background-color: salmon;
+  background-color: rgba(41, 7, 7, 0.501);
 }
 
+.grid-container p{
+  font-size: x-large;
+}
 .grid-container h2 {
-  color: white
+  font-size: 40px;
+  font-weight: 900;
+  color: navajowhite;
+  font-family: 'Merienda';
 }
 
+.profile-pic {
+  max-width: 100%;
+}

@@ -7,7 +7,7 @@ export default function Quote() {
       <Container className="quote-container">
         <Row className="text-center">
           <Col>
-            <p><q>Quote here</q></p> - Who the quote is by
+            <p><q>Think like a queen. A queen is not afraid to fail. Failure is another stepping stone to greatness.</q></p> - Oprah Winfrey
           </Col>
         </Row>
       </Container>

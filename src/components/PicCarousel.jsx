@@ -9,33 +9,51 @@ export default function picCarousel () {
           <Col className="p-0">
             <Carousel>
               <Carousel.Item>
-                <img src="https://picsum.photos/300/200?random=1"
+                <img src= "/images/weddingpic.jpg"
                   className= "d-block w-100"
-                  alt="slide 1"/>
-                <Carousel.Caption>
+                  alt="Jhonnas and me at a wedding together."/>
+                {/* <Carousel.Caption>
                 <h2>First Item</h2>
                 <p>First items are great because they are the first.</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="https://picsum.photos/300/200?random=2"
+                <img src="/images/lucyhoodie.jpg"
                   className= "d-block w-100"
-                  alt="slide 1"/>
-                <Carousel.Caption>
+                  alt="Lucy in a hoodie."/>
+                {/* <Carousel.Caption>
                 <h2>Second Item</h2>
                 <p>First items are great because they are the first.</p>
-                </Carousel.Caption> 
+                </Carousel.Caption>  */}
               </Carousel.Item>
 
               <Carousel.Item>
-                <img src="https://picsum.photos/300/200?random=3"
+                <img src="/images/closeup.jpg"
                   className= "d-block w-100"
-                  alt="slide 1"/>
-                <Carousel.Caption>
+                  alt="Jhonnas and Me smiling close together"/>
+                {/* <Carousel.Caption>
                 <h2>Third Item</h2>
                 <p>First items are great because they are the first.</p>
-                </Carousel.Caption>
+                </Carousel.Caption> */}
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img src="images/jhonnas2.jpg"
+                className="d-block w-100"
+                alt="Jhonnas smiling at a bar."/>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img src="images/blackandwhitephoto.jpg"
+                className="d-block w-100"
+                alt="Jhonnas and me in Boston" />
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <img src="images/lucyonbeach.jpg"
+                className="d-block w=100"
+                alt="Lucy on the beach in Clearwater, FL." />
               </Carousel.Item>
 
             </Carousel>
