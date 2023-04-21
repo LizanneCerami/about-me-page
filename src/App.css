@@ -6,7 +6,7 @@ body {
   background-image: url(./images/bg2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(237, 221, 218);
+  color: navajowhite;
   font-family: 'Shadows Into Light Two';
 }
 
@@ -15,7 +15,7 @@ h1 {
   font-weight: 900;
   padding-bottom: 30px;
   font-family: 'Merienda';
-  color: navajowhite;
+  color: rgb(241, 217, 221);
 }
 
 h2 {
@@ -33,7 +33,11 @@ p {
 .grid-container,
 .carousel-container {
   padding: 20px;
-  background-color: rgba(41, 7, 7, 0.817);
+  background-color: rgba(66, 185, 181, 0.892);
+}
+
+.carousel-container {
+  ;
 }
 
 .quote-container {
@@ -54,7 +58,7 @@ p {
   padding-top: 20px;
   font-size: 40px;
   font-weight: 900;
-  color: navajowhite;
+  color: rgb(241, 217, 221);
   font-family: 'Merienda';
 }
 

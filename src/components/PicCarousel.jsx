@@ -7,7 +7,7 @@ export default function picCarousel () {
       <Container className="carousel-container">
         <Row>
           <Col className="p-0">
-            <Carousel>
+            <Carousel interval={2000}>
               <Carousel.Item>
                 <img src= "/images/carousel-1.jpg"
                   className= "d-block w-100"
